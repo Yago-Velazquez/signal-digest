@@ -14,6 +14,19 @@ from youtube_transcript_api._errors import TranscriptsDisabled, NoTranscriptFoun
 CHANNEL_HANDLE = os.environ.get("CHANNEL_HANDLE", "aiDotEngineer")
 MAX_FRAMES = int(os.environ.get("MAX_FRAMES", "6"))
 
+# GitHub Actions runners share a small pool of well-known datacenter IPs that
+# YouTube increasingly blocks for both transcript scraping and yt-dlp downloads.
+# Set PROXY_URL (e.g. "http://user:pass@host:port") as a repo secret to route
+# around this. Without it, both transcript and frame extraction may fail on
+# every video while everything else in the pipeline keeps working.
+PROXY_URL = os.environ.get("PROXY_URL")
+
+
+def _requests_proxies():
+    if not PROXY_URL:
+        return None
+    return {"http": PROXY_URL, "https": PROXY_URL}
+
 
 def get_channel_uploads_playlist(youtube, handle):
     """Resolve a @handle to its 'uploads' playlist ID."""
@@ -58,10 +71,14 @@ def get_video_duration_seconds(youtube, video_id):
 def get_transcript(video_id):
     """Return the transcript as plain text with rough timestamps, or None if unavailable."""
     try:
-        segments = YouTubeTranscriptApi.get_transcript(video_id)
-    except (TranscriptsDisabled, NoTranscriptFound):
+        segments = YouTubeTranscriptApi.get_transcript(video_id, proxies=_requests_proxies())
+    except (TranscriptsDisabled, NoTranscriptFound) as e:
+        print(f"  [transcript] {video_id}: no transcript available ({type(e).__name__})")
         return None
-    except Exception:
+    except Exception as e:
+        # Prints the real reason (commonly IP-block related) to the Actions log
+        # instead of failing silently.
+        print(f"  [transcript] {video_id}: FAILED - {type(e).__name__}: {e}")
         return None
     lines = []
     for seg in segments:
@@ -84,17 +101,22 @@ def sample_key_frames(video_id, duration_seconds, max_frames=MAX_FRAMES):
         return []
     with tempfile.TemporaryDirectory() as tmp:
         video_path = os.path.join(tmp, "video.mp4")
+        yt_dlp_cmd = [
+            "yt-dlp",
+            "-f", "worst[height>=360][ext=mp4]/worst",
+            "-o", video_path,
+        ]
+        if PROXY_URL:
+            yt_dlp_cmd += ["--proxy", PROXY_URL]
+        yt_dlp_cmd.append(f"https://www.youtube.com/watch?v={video_id}")
         try:
-            subprocess.run(
-                [
-                    "yt-dlp",
-                    "-f", "worst[height>=360][ext=mp4]/worst",
-                    "-o", video_path,
-                    f"https://www.youtube.com/watch?v={video_id}",
-                ],
-                check=True, capture_output=True, timeout=600,
-            )
-        except Exception:
+            subprocess.run(yt_dlp_cmd, check=True, capture_output=True, timeout=600)
+        except subprocess.CalledProcessError as e:
+            stderr_tail = e.stderr.decode(errors="replace")[-1500:] if e.stderr else ""
+            print(f"  [frames] {video_id}: yt-dlp FAILED - {stderr_tail}")
+            return []
+        except Exception as e:
+            print(f"  [frames] {video_id}: yt-dlp FAILED - {type(e).__name__}: {e}")
             return []
 
         frames_dir = os.path.join(tmp, "frames")
@@ -112,7 +134,8 @@ def sample_key_frames(video_id, duration_seconds, max_frames=MAX_FRAMES):
                 ],
                 check=True, capture_output=True, timeout=600,
             )
-        except Exception:
+        except Exception as e:
+            print(f"  [frames] {video_id}: ffmpeg FAILED - {type(e).__name__}: {e}")
             return []
 
         frames = []
