@@ -19,7 +19,6 @@ Budget about 20 minutes.
 5. Go to https://console.cloud.google.com/apis/credentials
 6. Click **+ Create Credentials** → **API key**
 7. Copy the key somewhere safe — you'll need it in Step 3
-8. Key: AIzaSyADn2crBA8GBO1QhqC_f7JCYwfsjI4qFNk
 
 The free quota (10,000 units/day) is far more than checking one channel daily needs.
 
@@ -28,7 +27,6 @@ The free quota (10,000 units/day) is far more than checking one channel daily ne
 1. Go to https://console.x.ai/
 2. Sign in and create an API key from the dashboard
 3. Copy the key somewhere safe
-4. Key: xai-zT8DPP6JxADUD4ndnTmR7EOybN31LZAFcGijhpH4fGrR406UoTS1u1ZtMDHrm7eXJGXk1SQQEiijCXd3
 
 ## Step 3 — Create the GitHub repo
 
