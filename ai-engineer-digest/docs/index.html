@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signal — AI Engineer, distilled</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#10131A;
+    --surface:#171B26;
+    --surface-2:#1D2230;
+    --border:#262B3A;
+    --text:#E7E9F0;
+    --muted:#838DA3;
+    --signal:#43D9C8;
+    --amber:#F2B664;
+    --skip:#5B6472;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter',system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;}
+
+  header{
+    padding:48px 24px 32px;
+    max-width:760px;
+    margin:0 auto;
+    border-bottom:1px solid var(--border);
+  }
+  .wordmark{
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:700;
+    font-size:28px;
+    letter-spacing:0.02em;
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .wordmark .dot{
+    width:10px;height:10px;border-radius:50%;
+    background:var(--signal);
+    box-shadow:0 0 12px var(--signal);
+  }
+  header p{
+    color:var(--muted);
+    margin:10px 0 0;
+    font-size:15px;
+  }
+  #last-run{
+    font-family:'JetBrains Mono',monospace;
+    font-size:12px;
+    color:var(--muted);
+    margin-top:16px;
+  }
+
+  main{
+    max-width:760px;
+    margin:0 auto;
+    padding:32px 24px 80px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+  }
+
+  .empty{
+    color:var(--muted);
+    font-size:14px;
+    line-height:1.6;
+    padding:40px 0;
+  }
+  .empty code{
+    font-family:'JetBrains Mono',monospace;
+    background:var(--surface);
+    padding:2px 6px;
+    border-radius:4px;
+  }
+
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:20px 20px 20px 18px;
+    display:flex;
+    gap:16px;
+  }
+
+  /* Signature element: vertical signal-strength meter for novelty score */
+  .meter{
+    display:flex;
+    flex-direction:column-reverse;
+    gap:3px;
+    padding-top:2px;
+    flex-shrink:0;
+  }
+  .meter .bar{
+    width:6px;
+    border-radius:2px;
+    background:var(--border);
+  }
+  .meter .bar:nth-child(1){height:8px;}
+  .meter .bar:nth-child(2){height:14px;}
+  .meter .bar:nth-child(3){height:20px;}
+  .meter .bar:nth-child(4){height:26px;}
+  .meter .bar:nth-child(5){height:32px;}
+  .meter .bar.on{background:var(--signal);}
+
+  .card-body{flex:1;min-width:0;}
+
+  .top-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:12px;
+  }
+  .title{
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:600;
+    font-size:17px;
+    line-height:1.35;
+  }
+  .title a{text-decoration:none;}
+  .title a:hover{color:var(--signal);}
+
+  .badge{
+    font-family:'JetBrains Mono',monospace;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    padding:4px 9px;
+    border-radius:20px;
+    white-space:nowrap;
+    flex-shrink:0;
+  }
+  .badge.watch{background:rgba(67,217,200,0.14);color:var(--signal);}
+  .badge.skim{background:rgba(242,182,100,0.14);color:var(--amber);}
+  .badge.skip{background:rgba(91,100,114,0.18);color:var(--skip);}
+
+  .meta{
+    font-family:'JetBrains Mono',monospace;
+    font-size:11.5px;
+    color:var(--muted);
+    margin-top:6px;
+  }
+
+  .reason{
+    font-size:14px;
+    color:var(--muted);
+    margin-top:10px;
+    line-height:1.5;
+  }
+
+  .insights{
+    margin-top:14px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
+  .insight{
+    background:var(--surface-2);
+    border-left:2px solid var(--signal);
+    border-radius:0 6px 6px 0;
+    padding:10px 12px;
+    font-size:13.5px;
+    line-height:1.5;
+  }
+  .insight .claim{font-weight:500;}
+  .insight .why{color:var(--muted);margin-top:4px;}
+
+  .tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px;
+    margin-top:12px;
+  }
+  .tag{
+    font-family:'JetBrains Mono',monospace;
+    font-size:11px;
+    color:var(--muted);
+    border:1px solid var(--border);
+    border-radius:5px;
+    padding:2px 7px;
+  }
+
+  .highlights{
+    margin-top:12px;
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+  }
+  .highlight{
+    font-size:13px;
+    display:flex;
+    gap:8px;
+  }
+  .highlight .ts{
+    font-family:'JetBrains Mono',monospace;
+    color:var(--signal);
+    flex-shrink:0;
+  }
+  .highlight a{text-decoration:none;}
+  .highlight a:hover .ts{text-decoration:underline;}
+
+  details{margin-top:10px;}
+  summary{
+    font-family:'JetBrains Mono',monospace;
+    font-size:11px;
+    color:var(--muted);
+    cursor:pointer;
+    user-select:none;
+  }
+
+  @media (max-width:520px){
+    .title{font-size:15.5px;}
+    .card{padding:16px 14px 16px 12px;gap:12px;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wordmark"><span class="dot"></span>SIGNAL</div>
+  <p>AI Engineer, distilled daily. Not summaries — a triage on what's actually worth your time.</p>
+  <div id="last-run">last scan: —</div>
+</header>
+
+<main id="feed">
+  <div class="empty">Loading…</div>
+</main>
+
+<script>
+const VERDICT_STARS = { watch: 5, skim: 3, skip: 1 };
+
+function fmtDuration(sec){
+  if(!sec) return '';
+  const h = Math.floor(sec/3600), m = Math.floor((sec%3600)/60);
+  return h ? `${h}h ${m}m` : `${m}m`;
+}
+
+function fmtDate(iso){
+  if(!iso) return '';
+  const d = new Date(iso);
+  return d.toLocaleDateString(undefined, {month:'short', day:'numeric', year:'numeric'});
+}
+
+function meterHTML(score){
+  let bars = '';
+  for(let i=1;i<=5;i++){
+    bars += `<div class="bar ${score && i<=score ? 'on':''}"></div>`;
+  }
+  return `<div class="meter" title="Novelty: ${score ?? '?'}/5">${bars}</div>`;
+}
+
+function timestampToSeconds(ts){
+  const parts = ts.split(':').map(Number);
+  if(parts.length === 3) return parts[0]*3600 + parts[1]*60 + parts[2];
+  if(parts.length === 2) return parts[0]*60 + parts[1];
+  return 0;
+}
+
+function renderVideo(v){
+  const b = v.briefing || {};
+  const verdict = b.verdict || 'skim';
+  const score = b.novelty_score;
+
+  const insights = (b.insight_cards || []).map(c => `
+    <div class="insight">
+      <div class="claim">${c.claim || ''}</div>
+      ${c.evidence ? `<div class="why">${c.evidence}</div>` : ''}
+      ${c.why_it_matters ? `<div class="why">→ ${c.why_it_matters}</div>` : ''}
+    </div>
+  `).join('');
+
+  const tags = (b.entities || []).map(e => `<span class="tag">${e}</span>`).join('');
+
+  const highlights = (b.highlights || []).map(h => `
+    <div class="highlight">
+      <a href="${v.url}&t=${timestampToSeconds(h.timestamp)}s" target="_blank" rel="noopener">
+        <span class="ts">${h.timestamp}</span>
+      </a>
+      <span>${h.what}</span>
+    </div>
+  `).join('');
+
+  return `
+    <div class="card">
+      ${meterHTML(score)}
+      <div class="card-body">
+        <div class="top-row">
+          <div class="title"><a href="${v.url}" target="_blank" rel="noopener">${v.title}</a></div>
+          <span class="badge ${verdict}">${verdict}</span>
+        </div>
+        <div class="meta">${fmtDate(v.published_at)} · ${fmtDuration(v.duration_seconds)}${v.had_transcript ? '' : ' · no transcript'}</div>
+        ${b.verdict_reason ? `<div class="reason">${b.verdict_reason}</div>` : ''}
+        ${insights ? `<div class="insights">${insights}</div>` : ''}
+        ${highlights ? `<div class="highlights">${highlights}</div>` : ''}
+        ${tags ? `<div class="tags">${tags}</div>` : ''}
+      </div>
+    </div>
+  `;
+}
+
+fetch('./results.json?_=' + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    const feed = document.getElementById('feed');
+    document.getElementById('last-run').textContent =
+      'last scan: ' + (data.last_run ? new Date(data.last_run).toLocaleString() : 'not yet run');
+
+    if(!data.videos || data.videos.length === 0){
+      feed.innerHTML = `<div class="empty">
+        No videos processed yet. Once the daily scan runs (or you trigger it manually
+        from the <code>Actions</code> tab in your repo), new uploads will appear here.
+      </div>`;
+      return;
+    }
+    feed.innerHTML = data.videos.map(renderVideo).join('');
+  })
+  .catch(err => {
+    document.getElementById('feed').innerHTML =
+      `<div class="empty">Couldn't load results.json (${err.message}).</div>`;
+  });
+</script>
+
+</body>
+</html>
