@@ -10,6 +10,318 @@
       "frame_count": 0,
       "briefing": {
         "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or any substantive content available to evaluate claims or techniques.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero usable information; title alone provides no evidence of new techniques.",
+        "insight_cards": [],
+        "entities": [
+          "NVIDIA",
+          "Unsloth",
+          "HuggingFace",
+          "Ollama"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-11T14:22:56.675117+00:00"
+    },
+    {
+      "id": "FWMJQDH3iK0",
+      "title": "Local Models: Trust, Control, Optimization \u2014 Carter Abdallah, NVIDIA",
+      "published_at": "2026-08-07T02:00:06Z",
+      "url": "https://www.youtube.com/watch?v=FWMJQDH3iK0",
+      "duration_seconds": 2601,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or frame data available to evaluate any technical content or claims.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero source material prevents any assessment of new techniques versus common knowledge on local models.",
+        "insight_cards": [],
+        "entities": [
+          "NVIDIA"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-11T14:22:48.151170+00:00"
+    },
+    {
+      "id": "CoEIs6Xm8m8",
+      "title": "Open Source Is Dead. Long Live Open Source. \u2014 Saoud Rizwan, Cline",
+      "published_at": "2026-08-07T23:26:51Z",
+      "url": "https://www.youtube.com/watch?v=CoEIs6Xm8m8",
+      "duration_seconds": 1050,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or frame data available, and title alone signals a high-level opinion piece on open source rather than concrete technical substance.",
+        "novelty_score": 1,
+        "novelty_reason": "Title recycles a common rhetorical framing without indicating any new technique, benchmark, or finding.",
+        "insight_cards": [],
+        "entities": [
+          "Cline",
+          "Saoud Rizwan"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-11T14:22:40.440339+00:00"
+    },
+    {
+      "id": "LZuWZRze3MU",
+      "title": "The New Primitives: Building AI Native Software \u2014 Kwindla Kramer, Daily",
+      "published_at": "2026-08-07T23:53:33Z",
+      "url": "https://www.youtube.com/watch?v=LZuWZRze3MU",
+      "duration_seconds": 1274,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or frame descriptions available, so content cannot be evaluated for substance.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information provided beyond title prevents any assessment of new techniques.",
+        "insight_cards": [],
+        "entities": [
+          "Daily"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-11T14:22:32.089766+00:00"
+    },
+    {
+      "id": "Z-c11pV_uvU",
+      "title": "Anthropic's CCA Exam as a Field-Guide for Agentic Engineering \u2014 Frank Coyle, UC Berkeley",
+      "published_at": "2026-08-08T16:00:06Z",
+      "url": "https://www.youtube.com/watch?v=Z-c11pV_uvU",
+      "duration_seconds": 1208,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or frame data provided, so content depth and technical value cannot be assessed from the title alone.",
+        "novelty_score": 1,
+        "novelty_reason": "Title references an existing Anthropic exam and agentic patterns already discussed in public talks; no new signals visible.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-11T14:22:25.474677+00:00"
+    },
+    {
+      "id": "7vn4WpqNpck",
+      "title": "Benchmarking Coding Agents on New vs Legacy Codebases \u2014 Denys Linkov, Wisedocs",
+      "published_at": "2026-08-08T19:00:06Z",
+      "url": "https://www.youtube.com/watch?v=7vn4WpqNpck",
+      "duration_seconds": 1088,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or any content details provided, so impossible to evaluate substance or relevance.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information available to assess whether the talk contains new benchmarks or findings.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-11T14:22:17.294658+00:00"
+    },
+    {
+      "id": "iQ5xldZ9StU",
+      "title": "Realtime multiplayer, automation, and you! \u2014 Idan Gazit, GitHub",
+      "published_at": "2026-08-08T21:30:06Z",
+      "url": "https://www.youtube.com/watch?v=iQ5xldZ9StU",
+      "duration_seconds": 1301,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or other content provided, so no way to determine substance or relevance.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero source material available to assess any claims or techniques.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-11T14:22:07.893983+00:00"
+    },
+    {
+      "id": "K0X9QDRkIdg",
+      "title": "Evolution of agentic surfaces \u2014 Gagan Bhat & Isabella Kai He, Anthropic",
+      "published_at": "2026-08-09T09:12:27Z",
+      "url": "https://www.youtube.com/watch?v=K0X9QDRkIdg",
+      "duration_seconds": null,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or any content details available to assess substance or relevance.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero source material means no basis for detecting new techniques or findings.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-11T14:21:58.957656+00:00"
+    },
+    {
+      "id": "vSx5IULvBns",
+      "title": "Always-on agents run production without the on-call tax \u2014 Justin Smith, Resolve AI",
+      "published_at": "2026-08-09T14:45:06Z",
+      "url": "https://www.youtube.com/watch?v=vSx5IULvBns",
+      "duration_seconds": 1496,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or visual content provided, so impossible to extract any technical substance or claims.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone suggests a company pitch on always-on agents; no evidence of novel techniques.",
+        "insight_cards": [],
+        "entities": [
+          "Resolve AI"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-11T14:21:48.934550+00:00"
+    },
+    {
+      "id": "Kz4QJmNrVXU",
+      "title": "Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster \u2014 Matt Dailey, Ref.",
+      "published_at": "2026-08-09T16:30:28Z",
+      "url": "https://www.youtube.com/watch?v=Kz4QJmNrVXU",
+      "duration_seconds": 1237,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or any content details provided, so impossible to determine substance or value.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information available to assess any technique or finding.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-11T14:21:39.277142+00:00"
+    },
+    {
+      "id": "03l29gJXpCE",
+      "title": "Guide, Verify, Solve \u2014 Anirban Chatterjee, Sonar",
+      "published_at": "2026-08-09T17:45:13Z",
+      "url": "https://www.youtube.com/watch?v=03l29gJXpCE",
+      "duration_seconds": 1351,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or other content provided, so impossible to evaluate substance or relevance.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information available to judge novelty or value.",
+        "insight_cards": [],
+        "entities": [
+          "Sonar"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-11T14:21:32.101055+00:00"
+    },
+    {
+      "id": "OL7kfezynJM",
+      "title": "Multiplayer agentic engineering \u2014 Arjun Singh, Superconductor",
+      "published_at": "2026-08-09T20:30:34Z",
+      "url": "https://www.youtube.com/watch?v=OL7kfezynJM",
+      "duration_seconds": 1124,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or any content details available to assess substance or relevance.",
+        "novelty_score": 1,
+        "novelty_reason": "Cannot evaluate without any material from the video.",
+        "insight_cards": [],
+        "entities": [
+          "Superconductor"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-11T14:21:25.816729+00:00"
+    },
+    {
+      "id": "shRR1e2HXMk",
+      "title": "Codex, Behind the Harness \u2014 Dominik Kundel, OpenAI",
+      "published_at": "2026-08-10T16:00:06Z",
+      "url": "https://www.youtube.com/watch?v=shRR1e2HXMk",
+      "duration_seconds": 1255,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or any content details provided, making evaluation impossible.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information available to judge novelty or substance.",
+        "insight_cards": [],
+        "entities": [
+          "Codex",
+          "OpenAI",
+          "Dominik Kundel"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-11T14:21:18.020600+00:00"
+    },
+    {
+      "id": "maRzp4kImJ4",
+      "title": "Taking Reinforcement Learning Cross Datacenter \u2014 Nan Jiang, Modal",
+      "published_at": "2026-08-10T17:30:30Z",
+      "url": "https://www.youtube.com/watch?v=maRzp4kImJ4",
+      "duration_seconds": 1190,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or frame data provided, so content cannot be assessed for substance or novelty.",
+        "novelty_score": 2,
+        "novelty_reason": "Title suggests infrastructure scaling for RL but offers no evidence of new techniques beyond typical cloud orchestration claims.",
+        "insight_cards": [],
+        "entities": [
+          "Modal"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-11T14:21:11.905831+00:00"
+    },
+    {
+      "id": "aeTb5BdmTTc",
+      "title": "Agents, codebases, and teams \u2014 Aditya Khandelwal, Amazon AGI Lab",
+      "published_at": "2026-08-11T00:03:17Z",
+      "url": "https://www.youtube.com/watch?v=aeTb5BdmTTc",
+      "duration_seconds": 1017,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or other content provided, so impossible to determine substance or value.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information available to evaluate any claims or techniques.",
+        "insight_cards": [],
+        "entities": [
+          "Aditya Khandelwal",
+          "Amazon AGI Lab"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-11T14:21:03.971789+00:00"
+    },
+    {
+      "id": "J4_jCrTxMkk",
+      "title": "Compression at the Edge \u2014 NVIDIA, Unsloth, HuggingFace, Ollama",
+      "published_at": "2026-08-07T01:00:06Z",
+      "url": "https://www.youtube.com/watch?v=J4_jCrTxMkk",
+      "duration_seconds": 2761,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
         "verdict_reason": "No transcript, frames, or substantive details provided, so impossible to extract any actionable content beyond a generic title.",
         "novelty_score": 1,
         "novelty_reason": "Title only lists well-known tools and a broad topic with no indication of new methods or findings.",
@@ -313,5 +625,5 @@
       "processed_at": "2026-08-11T13:06:22.011476+00:00"
     }
   ],
-  "last_run": "2026-08-11T14:09:23.446377+00:00"
+  "last_run": "2026-08-11T14:22:56.675137+00:00"
 }
