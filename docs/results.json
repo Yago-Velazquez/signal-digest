@@ -1,6 +1,227 @@
 {
   "videos": [
     {
+      "id": "iqloyWCGYQQ",
+      "title": "Beyond Static Intelligence: Evaluating Continual Learning \u2014 Parth Asawa, UC Berkeley",
+      "published_at": "2026-08-12T14:00:19Z",
+      "url": "https://www.youtube.com/watch?v=iqloyWCGYQQ",
+      "duration_seconds": 1230,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or any content provided, so impossible to identify any specific technical contribution worth the engineer's time.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone gives no evidence of new techniques or findings beyond the generic topic of continual learning evaluation.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-13T08:27:47.568763+00:00"
+    },
+    {
+      "id": "zL1kLftVTlo",
+      "title": "Scaling up Continual Learning \u2014 Ronak Malde, Trajectory",
+      "published_at": "2026-08-12T14:30:11Z",
+      "url": "https://www.youtube.com/watch?v=zL1kLftVTlo",
+      "duration_seconds": 1383,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or other content details provided, so impossible to assess substance or value.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information available to judge novelty or relevance.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-13T08:27:39.002211+00:00"
+    },
+    {
+      "id": "R3-anFK1YM8",
+      "title": "Memory Harnesses for Long-Running Research Agents \u2014 Stefania Druga, Sakana.ai",
+      "published_at": "2026-08-12T15:00:06Z",
+      "url": "https://www.youtube.com/watch?v=R3-anFK1YM8",
+      "duration_seconds": 784,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or any content details provided, so substance cannot be evaluated.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone gives no evidence of new techniques beyond the generic topic of agent memory.",
+        "insight_cards": [],
+        "entities": [
+          "Sakana.ai"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-13T08:27:30.094923+00:00"
+    },
+    {
+      "id": "WiqDvX6isc4",
+      "title": "Scaling Compute on Context \u2014 Jack Morris, Engram",
+      "published_at": "2026-08-12T15:30:14Z",
+      "url": "https://www.youtube.com/watch?v=WiqDvX6isc4",
+      "duration_seconds": 1182,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or any content details available to evaluate substance or claims.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information provided prevents any assessment of new techniques.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-13T08:27:21.524870+00:00"
+    },
+    {
+      "id": "I6aiEf3aEFQ",
+      "title": "Intelligence + Continual Learning = Expertise \u2014 Yu Su, NeoCognition",
+      "published_at": "2026-08-12T16:00:08Z",
+      "url": "https://www.youtube.com/watch?v=I6aiEf3aEFQ",
+      "duration_seconds": 1183,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or frame data available to evaluate substance; title alone signals high-level conceptual framing rather than concrete techniques or results.",
+        "novelty_score": 1,
+        "novelty_reason": "Title restates the familiar idea that learning builds expertise without signaling any new algorithm, benchmark, or finding.",
+        "insight_cards": [],
+        "entities": [
+          "NeoCognition"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-13T08:27:14.342743+00:00"
+    },
+    {
+      "id": "XEd_SRVHBgU",
+      "title": "Adaption Labs: Gradient-Free Continual Learning \u2014 Sara Hooker, Adaption",
+      "published_at": "2026-08-12T16:30:19Z",
+      "url": "https://www.youtube.com/watch?v=XEd_SRVHBgU",
+      "duration_seconds": 1251,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frame descriptions, or other content details available to evaluate substance or identify any specific claims.",
+        "novelty_score": 1,
+        "novelty_reason": "Cannot assess novelty or technique without any video content or transcript.",
+        "insight_cards": [],
+        "entities": [
+          "Sara Hooker",
+          "Adaption Labs"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-13T08:27:07.272178+00:00"
+    },
+    {
+      "id": "I3bpdgFJCUY",
+      "title": "LLM Knowledge Bases: a practical guide \u2014 Ben Holmes, Warp",
+      "published_at": "2026-08-12T17:00:22Z",
+      "url": "https://www.youtube.com/watch?v=I3bpdgFJCUY",
+      "duration_seconds": 1277,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or frame descriptions are available, so content quality and substance cannot be evaluated.",
+        "novelty_score": 1,
+        "novelty_reason": "Missing all source material prevents any assessment of new techniques or findings.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-13T08:27:00.730682+00:00"
+    },
+    {
+      "id": "ZTA0GwpAUak",
+      "title": "Bringing Continual Learning into Enterprises \u2014 Samuel Denton, Applied Compute",
+      "published_at": "2026-08-12T17:30:06Z",
+      "url": "https://www.youtube.com/watch?v=ZTA0GwpAUak",
+      "duration_seconds": 1143,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or frame data available, so no concrete technical content or claims can be evaluated.",
+        "novelty_score": 1,
+        "novelty_reason": "Continual learning is established research; title alone gives no sign of new techniques or findings.",
+        "insight_cards": [],
+        "entities": [
+          "Samuel Denton",
+          "Applied Compute"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-13T08:26:53.236750+00:00"
+    },
+    {
+      "id": "jHMiYtjoJfA",
+      "title": "Designing Agents (The Floor Is the Frontier) \u2014 Ben Hylak, Raindrop",
+      "published_at": "2026-08-12T18:00:34Z",
+      "url": "https://www.youtube.com/watch?v=jHMiYtjoJfA",
+      "duration_seconds": 1186,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or other content details are available to assess substance or value.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero usable information prevents any evaluation of novelty or originality.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-13T08:26:44.656449+00:00"
+    },
+    {
+      "id": "5ZGyKWjQDr0",
+      "title": "Lessons from Studying Every Memory System \u2014 Shlok Khemani, Independent",
+      "published_at": "2026-08-12T18:30:06Z",
+      "url": "https://www.youtube.com/watch?v=5ZGyKWjQDr0",
+      "duration_seconds": 1171,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or any content details provided, so impossible to identify any substantive material worth watching.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone suggests a survey talk; without details this defaults to restating existing memory-system literature.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-13T08:26:33.956477+00:00"
+    },
+    {
+      "id": "CvRngaQZQ3Y",
+      "title": "Improving Agents is a Data Mining Problem \u2014 Vivek Trivedy, LangChain",
+      "published_at": "2026-08-12T19:00:01Z",
+      "url": "https://www.youtube.com/watch?v=CvRngaQZQ3Y",
+      "duration_seconds": 1202,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or any substantive content is available to evaluate the talk.",
+        "novelty_score": 2,
+        "novelty_reason": "Title suggests a data-centric framing for agents, but this is already a common perspective in the field with no new evidence here.",
+        "insight_cards": [],
+        "entities": [
+          "LangChain"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-13T08:26:25.208766+00:00"
+    },
+    {
       "id": "J4_jCrTxMkk",
       "title": "Compression at the Edge \u2014 NVIDIA, Unsloth, HuggingFace, Ollama",
       "published_at": "2026-08-07T01:00:06Z",
@@ -625,5 +846,5 @@
       "processed_at": "2026-08-11T13:06:22.011476+00:00"
     }
   ],
-  "last_run": "2026-08-12T08:22:58.785619+00:00"
+  "last_run": "2026-08-13T08:27:47.568783+00:00"
 }
