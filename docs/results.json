@@ -1,6 +1,68 @@
 {
   "videos": [
     {
+      "id": "WP3hjUXd918",
+      "title": "Context Engineering in 2026 \u2014 Louis-Fran\u00e7ois Bouchard, Omar Solano & Samridhi Vaid, Towards AI",
+      "published_at": "2026-08-17T16:26:35Z",
+      "url": "https://www.youtube.com/watch?v=WP3hjUXd918",
+      "duration_seconds": 3806,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or any content details provided, so impossible to evaluate substance or relevance.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone offers no evidence of new techniques or findings beyond speculative discussion.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-18T07:43:49.985755+00:00"
+    },
+    {
+      "id": "MkRYPFIMCSA",
+      "title": "Security Firewall for Agents \u2014 Ryan Dahl, Deno",
+      "published_at": "2026-08-17T18:30:06Z",
+      "url": "https://www.youtube.com/watch?v=MkRYPFIMCSA",
+      "duration_seconds": 1146,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or other content provided, so nothing substantive to evaluate.",
+        "novelty_score": 1,
+        "novelty_reason": "Cannot assess novelty without any material from the video.",
+        "insight_cards": [],
+        "entities": [
+          "Deno",
+          "Ryan Dahl"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-18T07:43:43.531687+00:00"
+    },
+    {
+      "id": "YgEv7IQzGdM",
+      "title": "How to Kill the Code Review \u2014 Ankit Jain, Aviator",
+      "published_at": "2026-08-17T20:00:08Z",
+      "url": "https://www.youtube.com/watch?v=YgEv7IQzGdM",
+      "duration_seconds": 986,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or frame data is available, so the video cannot be evaluated for substance beyond its clickbait title.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone suggests standard industry talk on automating code review with no evidence of novel technique.",
+        "insight_cards": [],
+        "entities": [
+          "Aviator"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-18T07:43:36.709979+00:00"
+    },
+    {
       "id": "CTLa_p6iOiY",
       "title": "Computer Use at the Edge of the Statistical Precipice \u2014 Pierluca D'Oro, Programma Labs",
       "published_at": "2026-08-14T14:30:31Z",
@@ -988,5 +1050,5 @@
       "processed_at": "2026-08-11T13:06:22.011476+00:00"
     }
   ],
-  "last_run": "2026-08-17T07:56:10.483044+00:00"
+  "last_run": "2026-08-18T07:43:49.985772+00:00"
 }
