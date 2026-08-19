@@ -1,6 +1,207 @@
 {
   "videos": [
     {
+      "id": "AN65uc645mE",
+      "title": "200 Million Patient Interactions Later \u2014 Vivek Muppalla, Hippocratic AI",
+      "published_at": "2026-08-17T10:05:27Z",
+      "url": "https://www.youtube.com/watch?v=AN65uc645mE",
+      "duration_seconds": null,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or frame descriptions available, so content cannot be evaluated for substance or relevance.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero usable information provided beyond the title.",
+        "insight_cards": [],
+        "entities": [
+          "Hippocratic AI"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-19T07:50:42.714768+00:00"
+    },
+    {
+      "id": "u6q-byPWUuo",
+      "title": "From Ambient Documentation to Clinical Intelligence \u2014 Chaitanya Asawa, Abridge",
+      "published_at": "2026-08-17T10:06:41Z",
+      "url": "https://www.youtube.com/watch?v=u6q-byPWUuo",
+      "duration_seconds": null,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or any content provided, so impossible to assess substance or novelty.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information available to evaluate claims or techniques.",
+        "insight_cards": [],
+        "entities": [
+          "Abridge"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-19T07:50:37.641846+00:00"
+    },
+    {
+      "id": "-tviRdpmHvs",
+      "title": "Training Krea 2: What matters in generative model training \u2014 Sangwu Lee, Krea.ai",
+      "published_at": "2026-08-18T14:00:06Z",
+      "url": "https://www.youtube.com/watch?v=-tviRdpmHvs",
+      "duration_seconds": 1306,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or any substantive content provided to evaluate the talk.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information available to judge novelty or substance.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-19T07:50:31.990792+00:00"
+    },
+    {
+      "id": "pPj_tjlvYjA",
+      "title": "Building an Agentic Video Editor for Mass Consumer \u2014 Ekaterina Deyneka, Reelful",
+      "published_at": "2026-08-18T14:30:38Z",
+      "url": "https://www.youtube.com/watch?v=pPj_tjlvYjA",
+      "duration_seconds": 765,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or frame data provided, so content cannot be evaluated for substance.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero usable information available to judge novelty or technical depth.",
+        "insight_cards": [],
+        "entities": [
+          "Reelful"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-19T07:50:25.335616+00:00"
+    },
+    {
+      "id": "VBCDhRrvlYo",
+      "title": "The Next Game Engine Won't Have a Manual \u2014 Arturo Nunez, Nereu",
+      "published_at": "2026-08-18T15:00:29Z",
+      "url": "https://www.youtube.com/watch?v=VBCDhRrvlYo",
+      "duration_seconds": 1173,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or frame data provided, so content cannot be evaluated for substance.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone offers no evidence of new techniques or findings beyond speculative framing.",
+        "insight_cards": [],
+        "entities": [
+          "Nereu"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-19T07:50:18.145332+00:00"
+    },
+    {
+      "id": "E_Txocq-Lrw",
+      "title": "While my guitar gently speaks \u2014 Todd Fisher, Philo Ventures",
+      "published_at": "2026-08-18T15:30:23Z",
+      "url": "https://www.youtube.com/watch?v=E_Txocq-Lrw",
+      "duration_seconds": 1115,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or visual content available and title shows no connection to AI, ML, or engineering topics.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero substantive material supplied to evaluate any technical contribution.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-19T07:50:11.369745+00:00"
+    },
+    {
+      "id": "z1dqv74SpUs",
+      "title": "Voice agents with Realtime Video \u2014 Sidney Primas, LemonSlice",
+      "published_at": "2026-08-18T16:00:06Z",
+      "url": "https://www.youtube.com/watch?v=z1dqv74SpUs",
+      "duration_seconds": 1596,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or frame descriptions available, so content cannot be evaluated for substance.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information provided beyond title prevents any assessment of new techniques.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-19T07:50:04.252818+00:00"
+    },
+    {
+      "id": "Xln-On3syJk",
+      "title": "Generative Video at the Speed of Light \u2014 Keegan McCallum, uRun",
+      "published_at": "2026-08-18T16:30:29Z",
+      "url": "https://www.youtube.com/watch?v=Xln-On3syJk",
+      "duration_seconds": 523,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or frame descriptions provided, so no technical content can be evaluated.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone offers no verifiable claims or methods to assess novelty.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-19T07:49:56.604955+00:00"
+    },
+    {
+      "id": "byn9PURoBNY",
+      "title": "Infra behind Krea 2: How to train and serve at scale \u2014 Gabriel Jorge Menezes, Krea.ai",
+      "published_at": "2026-08-18T17:00:05Z",
+      "url": "https://www.youtube.com/watch?v=byn9PURoBNY",
+      "duration_seconds": 1015,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or frame data provided, so content cannot be evaluated for substance or relevance.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero source material available to identify any techniques or findings.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-19T07:49:49.410708+00:00"
+    },
+    {
+      "id": "5dCAmSDOAjI",
+      "title": "The Next Medium: Why Real-Time Interactive Video Changes Everything \u2014 Ahmed Ahres, Reactor",
+      "published_at": "2026-08-18T17:30:18Z",
+      "url": "https://www.youtube.com/watch?v=5dCAmSDOAjI",
+      "duration_seconds": 1050,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or frame data available, and title alone is generic hype with no concrete technical claims.",
+        "novelty_score": 1,
+        "novelty_reason": "Title promises broad transformation without naming techniques, benchmarks, or prior work.",
+        "insight_cards": [],
+        "entities": [
+          "Ahmed Ahres",
+          "Reactor"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-19T07:49:43.413365+00:00"
+    },
+    {
       "id": "WP3hjUXd918",
       "title": "Context Engineering in 2026 \u2014 Louis-Fran\u00e7ois Bouchard, Omar Solano & Samridhi Vaid, Towards AI",
       "published_at": "2026-08-17T16:26:35Z",
@@ -1050,5 +1251,5 @@
       "processed_at": "2026-08-11T13:06:22.011476+00:00"
     }
   ],
-  "last_run": "2026-08-18T07:43:49.985772+00:00"
+  "last_run": "2026-08-19T07:50:42.714788+00:00"
 }
