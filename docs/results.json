@@ -1,6 +1,125 @@
 {
   "videos": [
     {
+      "id": "GJX19pNhmSw",
+      "title": "FinOps for AI Agents: Who Spent All the Tokens? \u2014 Tisha Chawla & Susheem Koul, Microsoft",
+      "published_at": "2026-08-22T14:30:07Z",
+      "url": "https://www.youtube.com/watch?v=GJX19pNhmSw",
+      "duration_seconds": 1284,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skim",
+        "verdict_reason": "Topic of token-level cost tracking for agents is timely, but no transcript or slides means we cannot confirm any concrete techniques or data beyond the title.",
+        "novelty_score": 2,
+        "novelty_reason": "FinOps for LLMs is already widely discussed; agent-specific spend attribution is an incremental extension rather than a new finding.",
+        "insight_cards": [],
+        "entities": [
+          "Microsoft"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-23T07:39:36.253295+00:00"
+    },
+    {
+      "id": "0I6aoPSRzVc",
+      "title": "What If Your Chip Design Team Moved Like a Single Body? \u2014 Abduallah Mohamed, AIDAChip",
+      "published_at": "2026-08-22T15:00:25Z",
+      "url": "https://www.youtube.com/watch?v=0I6aoPSRzVc",
+      "duration_seconds": 1006,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, no frame descriptions, and only a vague metaphorical title available, so content value cannot be assessed.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero substantive material provided to evaluate any technique or claim.",
+        "insight_cards": [],
+        "entities": [
+          "AIDAChip",
+          "Abduallah Mohamed"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-23T07:39:28.024921+00:00"
+    },
+    {
+      "id": "FvxY8oPoI8o",
+      "title": "Preferences Over Benchmarks: Model Routing \u2014 Archana Kamath & Tyler Gillam, DigitalOcean",
+      "published_at": "2026-08-22T15:30:18Z",
+      "url": "https://www.youtube.com/watch?v=FvxY8oPoI8o",
+      "duration_seconds": 954,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or other content provided, so substance cannot be evaluated.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero source material available to judge novelty or claims.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-23T07:39:21.897422+00:00"
+    },
+    {
+      "id": "KHudyx5wW3U",
+      "title": "Agent Frameworks Considered Harmful \u2014 R\u00e9mi Louf, .txt",
+      "published_at": "2026-08-22T16:30:39Z",
+      "url": "https://www.youtube.com/watch?v=KHudyx5wW3U",
+      "duration_seconds": 1229,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or visual content provided, so impossible to extract any substantive claims or assess whether the talk delivers more than title-level opinion.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone restates a common skeptical stance on agent frameworks already discussed widely in the field.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-23T07:39:14.481652+00:00"
+    },
+    {
+      "id": "yqF6XhzbWBk",
+      "title": "Inside 847 Production Clinical AI Notes \u2014 Sebastian Fox, Composo",
+      "published_at": "2026-08-22T17:00:32Z",
+      "url": "https://www.youtube.com/watch?v=yqF6XhzbWBk",
+      "duration_seconds": 1188,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or other content provided, so no substance can be evaluated.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero source material available to identify any technique or finding.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-23T07:39:07.987552+00:00"
+    },
+    {
+      "id": "L173Z8DpaJg",
+      "title": "The Agent Behind the Curtain: Building the Oz Cloud Agent Platform \u2014 Safia Abdalla, Warp",
+      "published_at": "2026-08-22T17:30:13Z",
+      "url": "https://www.youtube.com/watch?v=L173Z8DpaJg",
+      "duration_seconds": 1251,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or frame descriptions provided, so content cannot be evaluated for substance or novelty.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information available to assess any technical claims or techniques.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-23T07:39:01.888760+00:00"
+    },
+    {
       "id": "rbjWzZK2LU0",
       "title": "Give the Agent a Budget, Not a Token \u2014 Sachin Malhotra, Anthropic",
       "published_at": "2026-08-20T06:30:29Z",
@@ -1688,5 +1807,5 @@
       "processed_at": "2026-08-11T13:06:22.011476+00:00"
     }
   ],
-  "last_run": "2026-08-22T07:37:14.053834+00:00"
+  "last_run": "2026-08-23T07:39:36.253315+00:00"
 }
