@@ -1,6 +1,50 @@
 {
   "videos": [
     {
+      "id": "mMNkdYnIVC4",
+      "title": "Einstein Arena: Harnessing Collective Agent Intelligence for Open Science \u2014 James Zou, Together AI",
+      "published_at": "2026-08-25T20:46:01Z",
+      "url": "https://www.youtube.com/watch?v=mMNkdYnIVC4",
+      "duration_seconds": 1016,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or frame data available, so content cannot be triaged beyond the hype-sounding title from Together AI.",
+        "novelty_score": 2,
+        "novelty_reason": "Multi-agent systems for science is an active research area but this appears to be a vendor talk without demonstrated new methods.",
+        "insight_cards": [],
+        "entities": [
+          "Together AI",
+          "Einstein Arena",
+          "James Zou"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-26T07:53:27.715104+00:00"
+    },
+    {
+      "id": "XsvUhpnHepE",
+      "title": "The Missing Layer in Agentic AI \u2014 Giedrius \u0160teimantas, Oxylabs",
+      "published_at": "2026-08-26T07:00:06Z",
+      "url": "https://www.youtube.com/watch?v=XsvUhpnHepE",
+      "duration_seconds": 904,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or substantive details available; title alone suggests a company-branded talk on agent tooling without evidence of novel technical content.",
+        "novelty_score": 1,
+        "novelty_reason": "Title references a generic 'missing layer' in agentic AI from a web-scraping vendor, consistent with marketing rather than new research or techniques.",
+        "insight_cards": [],
+        "entities": [
+          "Oxylabs"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-26T07:53:19.054462+00:00"
+    },
+    {
       "id": "GJX19pNhmSw",
       "title": "FinOps for AI Agents: Who Spent All the Tokens? \u2014 Tisha Chawla & Susheem Koul, Microsoft",
       "published_at": "2026-08-22T14:30:07Z",
@@ -1807,5 +1851,5 @@
       "processed_at": "2026-08-11T13:06:22.011476+00:00"
     }
   ],
-  "last_run": "2026-08-25T07:49:58.088643+00:00"
+  "last_run": "2026-08-26T07:53:27.715121+00:00"
 }
