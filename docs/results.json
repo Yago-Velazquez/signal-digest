@@ -1,6 +1,291 @@
 {
   "videos": [
     {
+      "id": "wdTRsfw0KG0",
+      "title": "Reverse-Engineering the AI Buyer \u2014 Aliisa Rosenthal, Acrew Capital",
+      "published_at": "2026-08-26T13:00:06Z",
+      "url": "https://www.youtube.com/watch?v=wdTRsfw0KG0",
+      "duration_seconds": 1150,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or frame data available, so content cannot be assessed for substance or relevance.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero source material provided to identify any techniques, findings, or arguments.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-27T18:13:18.028135+00:00"
+    },
+    {
+      "id": "UhCY231d0FQ",
+      "title": "GTM Engineering: The Technical Bits \u2014 Everett Berry, Clay",
+      "published_at": "2026-08-26T13:30:31Z",
+      "url": "https://www.youtube.com/watch?v=UhCY231d0FQ",
+      "duration_seconds": 1144,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or visual content provided and title focuses on GTM/sales engineering rather than core AI or ML techniques.",
+        "novelty_score": 1,
+        "novelty_reason": "Title indicates standard go-to-market operational topics with no indication of new technical findings.",
+        "insight_cards": [],
+        "entities": [
+          "Clay"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-27T18:13:09.726615+00:00"
+    },
+    {
+      "id": "L4I7WgiEquo",
+      "title": "AI in GTM at Notion \u2014 Flora Liu",
+      "published_at": "2026-08-26T14:00:05Z",
+      "url": "https://www.youtube.com/watch?v=L4I7WgiEquo",
+      "duration_seconds": 1275,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or any content provided, so nothing substantive to evaluate.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information available to assess novelty or substance.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-27T18:13:00.244391+00:00"
+    },
+    {
+      "id": "VjEP0xqTUI0",
+      "title": "The Building Blocks of GTM Orchestration \u2014 Arman Vaziri, Ramp",
+      "published_at": "2026-08-26T14:30:38Z",
+      "url": "https://www.youtube.com/watch?v=VjEP0xqTUI0",
+      "duration_seconds": 1195,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or visuals available and title indicates sales/GTM strategy talk rather than technical AI content.",
+        "novelty_score": 1,
+        "novelty_reason": "Title and lack of any provided material give no sign of novel techniques or findings for an AI engineer.",
+        "insight_cards": [],
+        "entities": [
+          "Ramp",
+          "Arman Vaziri"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-27T18:12:51.944125+00:00"
+    },
+    {
+      "id": "DrTdD-ttjCY",
+      "title": "Building GTM AI Agents: Lessons from Deploying to 6,000 Users \u2014 Sait Izmit, Snowflake",
+      "published_at": "2026-08-26T15:00:06Z",
+      "url": "https://www.youtube.com/watch?v=DrTdD-ttjCY",
+      "duration_seconds": 1239,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "Title describes a Snowflake case study on GTM AI agents; typical conference talk heavy on context and light on novel technical substance for an AI engineer.",
+        "novelty_score": 2,
+        "novelty_reason": "Real deployment scale is mentioned but GTM agent patterns and scaling lessons are now widely discussed without unique techniques evident from title alone.",
+        "insight_cards": [],
+        "entities": [
+          "Snowflake",
+          "Sait Izmit"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-27T18:12:44.257848+00:00"
+    },
+    {
+      "id": "V_5bn4q-vAI",
+      "title": "How We Got LLMs to Recommend Our Open Source Library \u2014 Christopher Burns, Inth",
+      "published_at": "2026-08-26T15:30:07Z",
+      "url": "https://www.youtube.com/watch?v=V_5bn4q-vAI",
+      "duration_seconds": 987,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or visual content provided, so impossible to extract any concrete technique or evaluate substance.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone suggests a case study or anecdote rather than a new method; field already contains many similar LLM-influence stories.",
+        "insight_cards": [],
+        "entities": [
+          "Inth",
+          "Christopher Burns"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-27T18:12:34.182327+00:00"
+    },
+    {
+      "id": "6pbQgnJ9Voc",
+      "title": "Knowledge Systems: The New GTM Stack \u2014 Jeffrey Wang, Exa",
+      "published_at": "2026-08-26T16:00:26Z",
+      "url": "https://www.youtube.com/watch?v=6pbQgnJ9Voc",
+      "duration_seconds": 1129,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frame descriptions, or other content details available to evaluate substance or relevance.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero usable material provided to assess any claims or techniques.",
+        "insight_cards": [],
+        "entities": [
+          "Exa",
+          "Jeffrey Wang"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-27T18:12:23.373653+00:00"
+    },
+    {
+      "id": "Qw_tC68KKes",
+      "title": "How AI Agents Let GTM Teams Scale \u2014 Justin Joyce, Cloudflare",
+      "published_at": "2026-08-26T16:30:09Z",
+      "url": "https://www.youtube.com/watch?v=Qw_tC68KKes",
+      "duration_seconds": 1155,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or any substantive content provided, so impossible to evaluate technical value for an AI engineer.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information available to judge novelty or substance.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-27T18:12:15.794655+00:00"
+    },
+    {
+      "id": "Lrw0jqBNaw0",
+      "title": "The Death of Developer Advocates \u2014 Stephanie Jarmak, Sourcegraph",
+      "published_at": "2026-08-26T17:00:32Z",
+      "url": "https://www.youtube.com/watch?v=Lrw0jqBNaw0",
+      "duration_seconds": 1096,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or substantive details available; title points to an opinion piece on roles rather than technical AI content.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone recycles common industry commentary on changing job functions with no indication of novel techniques or findings.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-27T18:12:08.238354+00:00"
+    },
+    {
+      "id": "YXowceUKYJI",
+      "title": "KV Cache-Aware Routing and P/D Disaggregation on Kubernetes \u2014 Yuchen Fama & Ashish Kamra, Red Hat",
+      "published_at": "2026-08-27T14:00:06Z",
+      "url": "https://www.youtube.com/watch?v=YXowceUKYJI",
+      "duration_seconds": 1308,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or frame data provided, so no substantive technical content can be evaluated from the title alone.",
+        "novelty_score": 2,
+        "novelty_reason": "Title references known techniques (KV-cache routing, P/D disaggregation) already discussed in vLLM/Splitwise-style work; nothing indicates a novel finding.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-27T18:11:59.277623+00:00"
+    },
+    {
+      "id": "G7cgLjZtmMU",
+      "title": "The Agentic Commerce Stack \u2014 Ahnaf Prio, Best Buy",
+      "published_at": "2026-08-27T15:00:34Z",
+      "url": "https://www.youtube.com/watch?v=G7cgLjZtmMU",
+      "duration_seconds": 1238,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or frame data provided, so content cannot be evaluated for substance or relevance.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information available to identify any novel techniques or findings.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-27T18:11:48.741126+00:00"
+    },
+    {
+      "id": "qqrk7CtkuIw",
+      "title": "How Anthropic Builds: Lessons from Labs \u2014 Mike Krieger, Anthropic",
+      "published_at": "2026-08-27T16:00:06Z",
+      "url": "https://www.youtube.com/watch?v=qqrk7CtkuIw",
+      "duration_seconds": 1571,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or frame data provided, so content depth cannot be assessed; title suggests high-level org/process talk unlikely to contain actionable technical substance for an engineer.",
+        "novelty_score": 1,
+        "novelty_reason": "Standard 'lessons from labs' format with no indication of new techniques, benchmarks, or methods.",
+        "insight_cards": [],
+        "entities": [
+          "Anthropic",
+          "Mike Krieger"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-27T18:11:41.698187+00:00"
+    },
+    {
+      "id": "pOvWgX7IJsc",
+      "title": "Can LLMs Write Fast Multi-GPU Kernels? \u2014 Simran Arora, Together AI",
+      "published_at": "2026-08-27T17:00:39Z",
+      "url": "https://www.youtube.com/watch?v=pOvWgX7IJsc",
+      "duration_seconds": 1800,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or frame data available, so content cannot be triaged for substance.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone gives no evidence of new techniques or results beyond the common question of LLM code generation.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-27T18:11:33.826480+00:00"
+    },
+    {
+      "id": "qdAkxLoYNI8",
+      "title": "How to Generate Mergeable Code with a Context Engine \u2014 Peter Werry, Unblocked",
+      "published_at": "2026-08-27T18:00:23Z",
+      "url": "https://www.youtube.com/watch?v=qdAkxLoYNI8",
+      "duration_seconds": 1116,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or any content details available to evaluate substance or claims.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone gives no evidence of new techniques beyond standard AI coding tool marketing.",
+        "insight_cards": [],
+        "entities": [
+          "Unblocked"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-27T18:11:25.881125+00:00"
+    },
+    {
       "id": "mMNkdYnIVC4",
       "title": "Einstein Arena: Harnessing Collective Agent Intelligence for Open Science \u2014 James Zou, Together AI",
       "published_at": "2026-08-25T20:46:01Z",
@@ -1851,5 +2136,5 @@
       "processed_at": "2026-08-11T13:06:22.011476+00:00"
     }
   ],
-  "last_run": "2026-08-26T07:53:27.715121+00:00"
+  "last_run": "2026-08-27T18:13:18.028152+00:00"
 }
