@@ -1,6 +1,230 @@
 {
   "videos": [
     {
+      "id": "7A65O-0lvKE",
+      "title": "Which AI startups actually land enterprise contracts? \u2014 Brian Lewis, Millennium",
+      "published_at": "2026-08-27T20:05:28Z",
+      "url": "https://www.youtube.com/watch?v=7A65O-0lvKE",
+      "duration_seconds": null,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or visual content provided, so impossible to assess substance or specific takeaways.",
+        "novelty_score": 2,
+        "novelty_reason": "Title covers a frequently discussed topic with no evidence of new data or techniques.",
+        "insight_cards": [],
+        "entities": [
+          "Brian Lewis",
+          "Millennium"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-28T19:23:19.544512+00:00"
+    },
+    {
+      "id": "ZIYYsAzaLlA",
+      "title": "Building the Engine While Flying the Plane: Launching the Figma MCP Server \u2014 Jesse Lumarie, Figma",
+      "published_at": "2026-08-28T14:00:06Z",
+      "url": "https://www.youtube.com/watch?v=ZIYYsAzaLlA",
+      "duration_seconds": 1006,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or other content provided, so impossible to triage substance or relevance.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information available to judge novelty or technical value.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-28T19:23:13.150134+00:00"
+    },
+    {
+      "id": "EL123UNokkI",
+      "title": "Building uReview, Uber\u2019s Multi-Agent Code Review Engine \u2014 Will Bond & Ameya Ketkar, Uber",
+      "published_at": "2026-08-28T14:30:12Z",
+      "url": "https://www.youtube.com/watch?v=EL123UNokkI",
+      "duration_seconds": 907,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or frame data provided, so no substantive content can be assessed for an engineer deciding whether to watch.",
+        "novelty_score": 2,
+        "novelty_reason": "Title describes an internal Uber tool; multi-agent code review is an active area but without details this cannot be distinguished from existing work.",
+        "insight_cards": [],
+        "entities": [
+          "uReview",
+          "Uber"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-28T19:23:05.293775+00:00"
+    },
+    {
+      "id": "bMjlRrWjdT0",
+      "title": "AI Evals for Cross-Functional Teams \u2014 Nachiket Paranjape & Swaroop Chitlur Haridas, DoorDash",
+      "published_at": "2026-08-28T15:00:03Z",
+      "url": "https://www.youtube.com/watch?v=bMjlRrWjdT0",
+      "duration_seconds": 971,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or any content details are available to assess substance or relevance.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information provided prevents any evaluation of new techniques or findings.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-28T19:22:57.615352+00:00"
+    },
+    {
+      "id": "zrZ1amZBSPw",
+      "title": "Productionizing LLM Gateways: Architecture, Tradeoffs and Hard Lessons \u2014 Kanish Manuja, Twilio",
+      "published_at": "2026-08-28T15:30:03Z",
+      "url": "https://www.youtube.com/watch?v=zrZ1amZBSPw",
+      "duration_seconds": 984,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or frame data available, so content depth and substance cannot be assessed from the title alone.",
+        "novelty_score": 2,
+        "novelty_reason": "Title covers a now-common topic with no evidence of unique findings or data.",
+        "insight_cards": [],
+        "entities": [
+          "Twilio"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-28T19:22:48.635043+00:00"
+    },
+    {
+      "id": "mJqwmmOx4WA",
+      "title": "How to avoid disaster when vibe-coding a billing engine \u2014 Andrew Garvin, Stripe",
+      "published_at": "2026-08-28T16:00:06Z",
+      "url": "https://www.youtube.com/watch?v=mJqwmmOx4WA",
+      "duration_seconds": 1069,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skim",
+        "verdict_reason": "Stripe billing talk with a catchy title but no transcript or slides available to confirm substance beyond generic engineering advice.",
+        "novelty_score": 2,
+        "novelty_reason": "Title suggests practical war stories on billing edge cases, but without details this is likely standard advice already known to anyone who has shipped payments code.",
+        "insight_cards": [],
+        "entities": [
+          "Stripe"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-28T19:22:39.221772+00:00"
+    },
+    {
+      "id": "pqlWNihgdjI",
+      "title": "From AI-Assisted to AI-Native: Building a Frontier Development Team \u2014 Clare Liguori, AWS",
+      "published_at": "2026-08-28T16:30:19Z",
+      "url": "https://www.youtube.com/watch?v=pqlWNihgdjI",
+      "duration_seconds": 1257,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or frame data available, so no concrete techniques or findings can be evaluated from this AWS team-building talk.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone signals standard organizational advice on AI tooling with no indication of new methods or data.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-28T19:22:32.840165+00:00"
+    },
+    {
+      "id": "5Bn0xro2ol8",
+      "title": "How to Get Your Org to Adopt Coding Agents (Without Shipping Garbage) \u2014 Eyal Blum, Figma",
+      "published_at": "2026-08-28T17:00:33Z",
+      "url": "https://www.youtube.com/watch?v=5Bn0xro2ol8",
+      "duration_seconds": 1063,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or frame descriptions provided, so content cannot be evaluated for substance or relevance.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero source material available to assess any new techniques or findings.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-28T19:22:23.416182+00:00"
+    },
+    {
+      "id": "B0fjR3yaZFU",
+      "title": "How do you diffuse AI into the real world? \u2014 Varun Shenoy, Long Lake",
+      "published_at": "2026-08-28T17:30:33Z",
+      "url": "https://www.youtube.com/watch?v=B0fjR3yaZFU",
+      "duration_seconds": 1066,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or visual content provided, so impossible to identify any substantive technical material worth the engineer's time.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero extractable claims or techniques; title alone is generic deployment discussion.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-08-28T19:22:14.918267+00:00"
+    },
+    {
+      "id": "lRa9sPaMyy4",
+      "title": "Your Code Has Bugs. Lean4 Has Proofs: Formal Verification for Engineers \u2014 Varun Pant, AWS",
+      "published_at": "2026-08-28T18:00:17Z",
+      "url": "https://www.youtube.com/watch?v=lRa9sPaMyy4",
+      "duration_seconds": 607,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or visual content provided, so impossible to extract any specific technical claims or assess substance.",
+        "novelty_score": 2,
+        "novelty_reason": "Title alone indicates a standard introduction to Lean4 formal verification, a topic already covered in multiple existing talks and docs.",
+        "insight_cards": [],
+        "entities": [
+          "Lean4"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-28T19:22:07.062182+00:00"
+    },
+    {
+      "id": "M05vON8i0aI",
+      "title": "AI-Native Organisations Run on Skills: How to Structure and Scale Them \u2014 Imad Touil, QuantumBlack",
+      "published_at": "2026-08-28T18:30:04Z",
+      "url": "https://www.youtube.com/watch?v=M05vON8i0aI",
+      "duration_seconds": 1231,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or frames provided, and title points to standard consulting-style org advice rather than technical depth an engineer needs.",
+        "novelty_score": 1,
+        "novelty_reason": "Organizational structuring for AI teams is widely discussed in McKinsey-style content with little indication of novel techniques.",
+        "insight_cards": [],
+        "entities": [
+          "QuantumBlack",
+          "Imad Touil"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-08-28T19:21:57.771898+00:00"
+    },
+    {
       "id": "wdTRsfw0KG0",
       "title": "Reverse-Engineering the AI Buyer \u2014 Aliisa Rosenthal, Acrew Capital",
       "published_at": "2026-08-26T13:00:06Z",
@@ -2136,5 +2360,5 @@
       "processed_at": "2026-08-11T13:06:22.011476+00:00"
     }
   ],
-  "last_run": "2026-08-27T18:13:18.028152+00:00"
+  "last_run": "2026-08-28T19:23:19.544531+00:00"
 }
