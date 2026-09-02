@@ -1,6 +1,191 @@
 {
   "videos": [
     {
+      "id": "A-zeQiYkmXk",
+      "title": "Teaching agents to pay \u2014 Anna Spysz, Stripe",
+      "published_at": "2026-09-01T16:30:06Z",
+      "url": "https://www.youtube.com/watch?v=A-zeQiYkmXk",
+      "duration_seconds": 1150,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or frame data provided, so content cannot be evaluated.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information available to assess any technical contribution.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-09-02T12:05:19.803032+00:00"
+    },
+    {
+      "id": "AhQpRalYlyg",
+      "title": "Multimodal Collaborative Agents for Next-Gen Commerce \u2014 Nidhi Kaushik Vyas, Google DeepMind",
+      "published_at": "2026-09-01T17:00:27Z",
+      "url": "https://www.youtube.com/watch?v=AhQpRalYlyg",
+      "duration_seconds": 1268,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or substantive details available to evaluate any technical content or claims.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone provides no evidence of new techniques beyond generic agent/commerce buzzwords.",
+        "insight_cards": [],
+        "entities": [
+          "Google DeepMind"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-09-02T12:05:12.403392+00:00"
+    },
+    {
+      "id": "xKzU_3riL6s",
+      "title": "Why Your AI Agent Needs a Wallet: USDC and Nanopayments \u2014 Harshal Bhangale, Circle",
+      "published_at": "2026-09-01T17:30:10Z",
+      "url": "https://www.youtube.com/watch?v=xKzU_3riL6s",
+      "duration_seconds": 1252,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or frame descriptions provided, so content depth cannot be evaluated beyond a promotional-sounding title.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone suggests standard industry explanation of USDC for agents rather than new research or technique.",
+        "insight_cards": [],
+        "entities": [
+          "USDC",
+          "Circle"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-09-02T12:05:06.433719+00:00"
+    },
+    {
+      "id": "qTZirYu9pr0",
+      "title": "When AI Agents Pay and Sellers Monetize: Building x402 Apps on AWS \u2014 Anil Nadiminti, AWS",
+      "published_at": "2026-09-01T18:00:14Z",
+      "url": "https://www.youtube.com/watch?v=qTZirYu9pr0",
+      "duration_seconds": 1241,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or other content provided, so impossible to identify any substance or specific moments worth watching.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information available to evaluate whether the talk introduces anything new beyond the title.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-09-02T12:04:59.442209+00:00"
+    },
+    {
+      "id": "vGn6N4-bxBY",
+      "title": "Your Agent Just Authorized What?! \u2014 Jay Mok & Ben Coumes, Paypal",
+      "published_at": "2026-09-01T18:30:06Z",
+      "url": "https://www.youtube.com/watch?v=vGn6N4-bxBY",
+      "duration_seconds": 967,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skim",
+        "verdict_reason": "Title indicates a PayPal security talk on AI agent authorization risks, but zero transcript or slide data means substance level is unknown.",
+        "novelty_score": 2,
+        "novelty_reason": "Topic is a known pain point in agentic systems; unlikely to introduce new techniques without further evidence.",
+        "insight_cards": [],
+        "entities": [
+          "Paypal"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-09-02T12:04:52.390824+00:00"
+    },
+    {
+      "id": "h6mi88VrPtQ",
+      "title": "x402 isn\u2019t good (yet) \u2014 Jan Curn, Apify",
+      "published_at": "2026-09-01T19:00:09Z",
+      "url": "https://www.youtube.com/watch?v=h6mi88VrPtQ",
+      "duration_seconds": 1248,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or frame data provided, so content cannot be evaluated for substance or relevance.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero source material available to assess any claims about x402.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-09-02T12:04:44.594564+00:00"
+    },
+    {
+      "id": "ZyGMqdIpPoE",
+      "title": "Agent Spending Without Controls \u2014 Rodrigo Coelho & Pranav Maheshwari, Edge & Node",
+      "published_at": "2026-09-01T19:30:09Z",
+      "url": "https://www.youtube.com/watch?v=ZyGMqdIpPoE",
+      "duration_seconds": 1248,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or frame data provided, so content cannot be assessed for substance or relevance.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone indicates a common discussion on AI agent spending risks with no evidence of new techniques.",
+        "insight_cards": [],
+        "entities": [
+          "Edge & Node"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-09-02T12:04:36.769031+00:00"
+    },
+    {
+      "id": "QrMcNe2jjt8",
+      "title": "The End of the Static Screen: Architecting Intent-Driven UX \u2014 Gus Iwanaga, commercetools",
+      "published_at": "2026-09-01T20:00:01Z",
+      "url": "https://www.youtube.com/watch?v=QrMcNe2jjt8",
+      "duration_seconds": 1399,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or frame data provided, and the title indicates a high-level conceptual talk on UX trends from a commerce vendor rather than concrete technical substance.",
+        "novelty_score": 2,
+        "novelty_reason": "Intent-driven UX is a known direction in AI interfaces but this appears to be a vendor presentation without evidence of novel techniques or findings.",
+        "insight_cards": [],
+        "entities": [
+          "commercetools",
+          "Gus Iwanaga"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-09-02T12:04:30.092216+00:00"
+    },
+    {
+      "id": "tE2z8-hqoLY",
+      "title": "Beyond the Lethal Trifecta: Agentic Commerce on the Open Internet \u2014 David Levine, Kiduna Club",
+      "published_at": "2026-09-01T20:30:27Z",
+      "url": "https://www.youtube.com/watch?v=tE2z8-hqoLY",
+      "duration_seconds": 1300,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or any substantive content provided, only a title that signals a conceptual talk rather than technical details or results.",
+        "novelty_score": 1,
+        "novelty_reason": "Title references an existing concept (lethal trifecta) applied to agentic commerce with no indication of new techniques or findings.",
+        "insight_cards": [],
+        "entities": [
+          "Kiduna Club"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-09-02T12:04:23.741650+00:00"
+    },
+    {
       "id": "KLDdXOw6jIc",
       "title": "SOTA Generative Media Panel \u2014 Dumitru Erhan, Shane Gu & Nicole Brichtova, Google DeepMind",
       "published_at": "2026-08-30T14:00:06Z",
@@ -2566,5 +2751,5 @@
       "processed_at": "2026-08-11T13:06:22.011476+00:00"
     }
   ],
-  "last_run": "2026-09-01T12:29:36.334497+00:00"
+  "last_run": "2026-09-02T12:05:19.803050+00:00"
 }
