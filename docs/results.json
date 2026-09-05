@@ -1,6 +1,29 @@
 {
   "videos": [
     {
+      "id": "5Cxe5dv2Xlw",
+      "title": "Why AI Agents Need Million-Token Context \u2014 Thomas Wolf & Olive Song, MiniMax",
+      "published_at": "2026-09-04T13:00:26Z",
+      "url": "https://www.youtube.com/watch?v=5Cxe5dv2Xlw",
+      "duration_seconds": 1248,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or substantive details available to evaluate claims or depth.",
+        "novelty_score": 1,
+        "novelty_reason": "Topic on long context for agents is widely discussed already; nothing new can be assessed here.",
+        "insight_cards": [],
+        "entities": [
+          "Thomas Wolf",
+          "MiniMax",
+          "Olive Song"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-09-05T11:13:24.212988+00:00"
+    },
+    {
       "id": "Qr15lGAGKpo",
       "title": "Everyone Gets A Software Company \u2014 Benjamin Guo, Zo Computer",
       "published_at": "2026-09-03T14:00:06Z",
@@ -2851,5 +2874,5 @@
       "processed_at": "2026-08-11T13:06:22.011476+00:00"
     }
   ],
-  "last_run": "2026-09-04T12:04:34.015748+00:00"
+  "last_run": "2026-09-05T11:13:24.213012+00:00"
 }
