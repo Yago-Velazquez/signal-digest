@@ -1,6 +1,129 @@
 {
   "videos": [
     {
+      "id": "9R--1tg45Jg",
+      "title": "Build-Time vs. Run-Time: Why Dev Tools Fail in Production \u2014 Averi Kitsch & Prerna Kakkar, Google",
+      "published_at": "2026-09-09T13:00:04Z",
+      "url": "https://www.youtube.com/watch?v=9R--1tg45Jg",
+      "duration_seconds": 1226,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or frame data provided, so content substance cannot be assessed.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero source material available to identify any novel claims or techniques.",
+        "insight_cards": [],
+        "entities": [
+          "Averi Kitsch",
+          "Prerna Kakkar",
+          "Google"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-09-10T12:10:30.999654+00:00"
+    },
+    {
+      "id": "xo68uCibfm8",
+      "title": "It\u2019s Tokens All The Way Down: How RLMs are Different \u2014 Kevin Madura, AlixPartners",
+      "published_at": "2026-09-09T13:30:27Z",
+      "url": "https://www.youtube.com/watch?v=xo68uCibfm8",
+      "duration_seconds": 1248,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript or frame descriptions provided, so content substance cannot be evaluated at all.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information available to judge whether the talk offers anything beyond title-level speculation on RLMs.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-09-10T12:10:24.141250+00:00"
+    },
+    {
+      "id": "KcVkq5L-0f0",
+      "title": "Your agents lack context: Here's how to fix \"You're absolutely right!\" \u2014 Brandon Waselnuk, Unblocked",
+      "published_at": "2026-09-09T14:30:12Z",
+      "url": "https://www.youtube.com/watch?v=KcVkq5L-0f0",
+      "duration_seconds": 849,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or any content details available to evaluate substance or claims.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone provides no evidence of new techniques beyond common agent context complaints.",
+        "insight_cards": [],
+        "entities": [
+          "Unblocked"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-09-10T12:10:16.959760+00:00"
+    },
+    {
+      "id": "lbaXnx0KLA8",
+      "title": "MCP Apps: Give the Model Data, Give the User a UI \u2014 Dustin Mihalik, Indeed",
+      "published_at": "2026-09-09T15:30:08Z",
+      "url": "https://www.youtube.com/watch?v=lbaXnx0KLA8",
+      "duration_seconds": 934,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, slides, or any content details provided, so impossible to assess substance or value.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information available to determine if the talk introduces anything new.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-09-10T12:10:09.268461+00:00"
+    },
+    {
+      "id": "YkNulwcc5jk",
+      "title": "ACP: The Universal Remote Control for AI Agents \u2014 Alex Hancock, Block",
+      "published_at": "2026-09-09T16:00:03Z",
+      "url": "https://www.youtube.com/watch?v=YkNulwcc5jk",
+      "duration_seconds": 661,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or any substantive content provided to evaluate.",
+        "novelty_score": 1,
+        "novelty_reason": "Zero information available to judge novelty or substance.",
+        "insight_cards": [],
+        "entities": [
+          "ACP",
+          "Block"
+        ],
+        "highlights": []
+      },
+      "processed_at": "2026-09-10T12:10:03.711750+00:00"
+    },
+    {
+      "id": "AJhjm4_UJIk",
+      "title": "The exact tools used to port a massive codebase in days #programming #typescript #dev",
+      "published_at": "2026-09-09T20:07:49Z",
+      "url": "https://www.youtube.com/watch?v=AJhjm4_UJIk",
+      "duration_seconds": 51,
+      "had_transcript": false,
+      "frame_count": 0,
+      "briefing": {
+        "verdict": "skip",
+        "verdict_reason": "No transcript, frames, or any content provided, so impossible to determine if the video contains actionable details on the claimed porting tools.",
+        "novelty_score": 1,
+        "novelty_reason": "Title alone offers no evidence of new techniques beyond common marketing claims about fast codebase ports.",
+        "insight_cards": [],
+        "entities": [],
+        "highlights": []
+      },
+      "processed_at": "2026-09-10T12:09:57.173077+00:00"
+    },
+    {
       "id": "XzJD1bvXKjs",
       "title": "How long can your skills be before your agent forgets what you told it? \u2014 Laurie Voss, Arize AI",
       "published_at": "2026-09-08T11:38:57Z",
@@ -2931,5 +3054,5 @@
       "processed_at": "2026-08-11T13:06:22.011476+00:00"
     }
   ],
-  "last_run": "2026-09-09T12:15:59.781725+00:00"
+  "last_run": "2026-09-10T12:10:30.999814+00:00"
 }
